@@ -17,12 +17,12 @@ import java.util.Set;
  * @author Admin
  */
 public class CategoryTester {
-    @Test
-    public void testQuantity() throws SQLException {
-        List<Category> cates = new CategoryService().getCates();
-        Assertion.assertTrue(cates.size() >= 3);
-    }
-//    
+//    @Test
+//    public void testQuantity() throws SQLException {
+//        List<Category> cates = new CategoryService().getCates();
+//        Assertions.assertTrue(cates.size() >= 3);
+//    }
+  
 //    public void testUnique() throws SQLException {
 //        List<Category> cates = new CategoryService().getCates();
 //        
@@ -31,6 +31,6 @@ public class CategoryTester {
 //        
 //        Set<String> temp = new HashSet<>(names);
 //        
-//        Assertion.assertEquals(names.size(), temp.size());
+//        Assertions.assertEquals(names.size(), temp.size());
 //    }
 }

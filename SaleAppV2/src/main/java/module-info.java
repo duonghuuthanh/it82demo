@@ -5,4 +5,5 @@ module com.dht.saleappv2 {
     
     opens com.dht.saleappv2 to javafx.fxml;
     exports com.dht.saleappv2;
+    exports com.dht.pojo;
 }
